@@ -1,6 +1,6 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Thiago Ferreira](www.linkedin.com/in/thiagoferreirarose)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Thiago Ferreira](https://www.linkedin.com/in/thiagoferreirarose)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa são paga quando conseguir um bom trabalho."_
 
@@ -15,4 +15,4 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 2: Git & GitHub
 
-- [ ] 2-1: _O que é e para que serve?_
+- [X] 2-1: _O que é e para que serve?_
