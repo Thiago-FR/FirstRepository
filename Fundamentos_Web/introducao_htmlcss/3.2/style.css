@@ -1,0 +1,39 @@
+h1{
+    color: orange;
+    font-size: 65px;  
+    font-family: sans-serif;          
+}
+
+ul{
+    background-color:green;
+}
+
+.tags{
+    background-color: blue;
+}
+p{
+    font-weight: 600;
+    font-size: 3em;
+}
+
+body{
+    font-size: 16px;
+}
+
+.list-style{
+    font-style: italic;
+    line-height: 40px;
+    text-align: center;
+    text-decoration:underline;
+}
+
+#amarelo{
+    color: yellow;
+}
+#vermelho{
+    color: red;
+}
+
+#marrom{
+    color: brown;
+}
