@@ -6,7 +6,7 @@ Você provavelmente não conhece algumas das propriedades utilizadas nesse códi
 
 * index.html
 
-`
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,11 +22,11 @@ Você provavelmente não conhece algumas das propriedades utilizadas nesse códi
   <div class="caixa width-and-height padding margin border" style="background: #3898EC">D</div>
 </body>
 </html>
-`
+```
 
 * style.css
 
-`
+```
 .caixa {
   color: white;
   display: inline-block;
@@ -54,4 +54,4 @@ Você provavelmente não conhece algumas das propriedades utilizadas nesse códi
 .border {
   
 }
-`
+```
