@@ -27,4 +27,4 @@ Copie o código HTML abaixo e faça o que for pedido:
 * A fonte do item mude quando ele for clicado.
 4. Adicione uma lista não ordenada com, pelo menos, 3 características que você gosta.
 5. No 'style.css', adicione a propriedade 'list-style: none' para ambas as listas.
-Dica : Nesse link , você irá encontrar a documentação sobre todas as pseudoclasses do CSS.
+Dica : Nesse _[link](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)_ , você irá encontrar a documentação sobre todas as pseudoclasses do CSS.
