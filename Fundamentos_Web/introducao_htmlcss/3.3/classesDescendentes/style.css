@@ -2,14 +2,6 @@ ol{
     background-color: yellow;
 }
 
-.par{
-    color: green;
-}
-
-.impar{
-    text-transform: uppercase;
-}
-
 h1,h2,h3,h4,h5,h6{
     color: red;
 }
@@ -24,6 +16,17 @@ li{
 
 li em{
     font-weight: bolder;
+}
+
+ol li:nth-child(odd){
+    text-transform: uppercase;
+}
+ol li:nth-child(even){
+    color: green;
+}
+
+li:nth-child(-n + 3){
+    color: blue;
 }
 
 .azul{
