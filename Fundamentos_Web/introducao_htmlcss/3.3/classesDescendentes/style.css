@@ -10,6 +10,8 @@ h1 em,h2 em,h3 em,h4 em,h5 em,h6 em{
     font-size: 40px;
 }
 
+
+
 li{
     font-size: 20px;
 }
@@ -29,18 +31,31 @@ li:nth-child(-n + 3){
     color: blue;
 }
 
-.azul{
+li:nth-child(n) "java*"{
     color: blue;
 }
 
-.rosa{
-    background-color: palevioletred;
+ul li:nth-child(1) a:hover{
+    font-weight: bold;
+    background-color: orange;
+}
+ul li:nth-child(2) a:hover{
+    font-weight: bold;
+    background-color:green;
+}
+ul li:nth-child(3) a:hover{
+    font-weight: bold;
+    background-color:black;
+}
+ul li:nth-child(4) a:hover{
+    font-weight: bold;
+    background-color:yellow;
+}
+ul li:nth-child(5) a:hover{
+    font-weight: bold;
+    background-color:greenyellow;
 }
 
-ul li a:hover{
-   font-weight: bold;  
-   background-color: orange;
-}
 
 
 
