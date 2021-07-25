@@ -38,9 +38,31 @@ footer{
     border: 2px solid red;
 }
 
+section table{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #principal{
     width: 900px;
     margin-left: auto;
     margin-right: auto;
     background-color: #C71585;
 }
+
+#section-one{
+    width: 300px;
+    float: left;
+    text-align: center;
+}
+
+#section-two{
+    width: 584px;
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
