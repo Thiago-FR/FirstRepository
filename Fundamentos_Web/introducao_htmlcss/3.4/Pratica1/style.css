@@ -44,6 +44,10 @@ section table{
     margin-right: auto;
 }
 
+section h3{
+    text-align: center;
+}
+
 #principal{
     width: 900px;
     margin-left: auto;
@@ -62,7 +66,20 @@ section table{
     float: right;
 }
 
+#section-three p, #section-three h3{
+    max-width: 440px;
+    text-align: justify;
+    padding-left: 20px;
+}
+
 .clear{
     clear: both;
+}
+
+#section-three .img{
+    width: 400px;
+    float: right;
+    border: 2px solid blue;
+    padding-bottom: 20px;
 }
 
