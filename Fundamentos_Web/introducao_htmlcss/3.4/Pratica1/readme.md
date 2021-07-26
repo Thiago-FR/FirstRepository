@@ -1,20 +1,11 @@
-#Exercício
+# Exercício
 
 O objetivo desses exercícios é colocar em prática o que você acabou de aprender sobre HTML semântico .
 Para tal, criaremos uma página que apresenta um dos animais mais impressionantes que existem: o [Stomatopoda](https://www.nationalgeographic.com/science/article/natures-most-amazing-eyes-just-got-a-bit-weirder)
 * Crie um link chamado Página Inicial .
 * Crie um link chamado Sobre .
-
-* Crie um link chamado Página Inicial .
-* Crie um link chamado Sobre .
-* Crie um link chamado Página Inicial .
-* Crie um link chamado Sobre .
-
-* Crie um link chamado Sobre .
-
-* Crie um link chamado Página Inicial .
-* Crie um link chamado Sobre .
 * Crie um link chamado Contato .
+
 3. Crie um artigo que vai conter os fatos interessantes sobre o Stomatopoda . O artigo terá o subtítulo Fatos sobre o Stomatopoda . Segue um [site animal](https://theoatmeal.com/comics/mantis_shrimp) de inspiração para pegar fatos.
 
 4. Divida o artigo em seções, organizando-o da seguinte forma:
@@ -27,7 +18,6 @@ Para tal, criaremos uma página que apresenta um dos animais mais impressionante
 5. Adicione um conteúdo adjacente ao artigo, disponibilizando um link para este vídeo, que mostra o animal em ação.
 
 6. Adicione um rodapé na página, mostrando algo do gênero:
-
 `"Conteúdo compilado por <insere seu nome>, <ano atual>".`
 
 Obs: para esse exercício, é obrigatório fazer uso de, no mínimo , 6 elementos com as seguintes tags: header , nav , article , section , h1 , h2 , h3, aside , footer , table e img .
