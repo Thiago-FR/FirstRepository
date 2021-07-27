@@ -8,19 +8,15 @@ header{
     text-align: center;
 }
 
-nav{
-    border: 2px solid red;
-    text-align: center;
-}
-
 h2{
     text-align: center;
 }
 
-nav ul li{
+nav li{
     display: inline;
     margin-right: 45px;
 }
+
 a{
     color: white;
     text-decoration: none;
@@ -75,6 +71,7 @@ section h3{
     width: 300px;
     float: left;
     text-align: center;
+    padding: 20px 0px;
 }
 
 #section-two{
