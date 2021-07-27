@@ -10,8 +10,6 @@ h1 em,h2 em,h3 em,h4 em,h5 em,h6 em{
     font-size: 40px;
 }
 
-
-
 li{
     font-size: 20px;
 }
@@ -28,10 +26,6 @@ ol li:nth-child(even){
 }
 
 li:nth-child(-n + 3){
-    color: blue;
-}
-
-li:nth-child(n) "java*"{
     color: blue;
 }
 
