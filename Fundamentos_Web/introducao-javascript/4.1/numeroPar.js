@@ -1,13 +1,15 @@
-let num = 132;
+let num1 = 131;
+let num2 = 132;
+let num3 = 131;
 
-let par = num % 2;
+let par1 = num1 % 2;
+let par2 = num2 % 2;
+let par3 = num3 % 2;
 
-if(par === 0){
+if(par1 === 0 || par2 === 0 || par3 === 0){
   console.log("Numero Par");
-  console.log(par);
 }else{
   console.log("Numero Impar");
-  console.log(par);
 }
 
 
