@@ -1,0 +1,131 @@
+body{
+    background-color: #DDA0DD;
+    color: white;
+}
+
+header{
+    border: 2px solid red;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    margin-right: 45px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    border: 2px solid blue;
+}
+
+article{
+    border: 2px solid green;
+}
+
+section{
+    border: 2px solid black;
+}
+
+footer{
+    border: 2px solid red;
+    text-align: center;
+    padding: 30px;
+}
+
+section table{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section h3{
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+.img{
+    width: 400px;
+    border: 2px solid blue;
+    padding-bottom: 20px;
+}
+
+#principal{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C71585;
+}
+
+#section-one{
+    width: 300px;
+    float: left;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#section-two{
+    width: 584px;
+    float: right;
+}
+
+#section-two p{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#section-three p, #section-three h3{
+    max-width: 435px;
+    text-align: justify;
+    padding-left: 30px;
+}
+
+#section-three .img{
+    float: right;
+}
+
+#section-four p, #section-four h3{
+    margin-left: 430px;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+#section-four .img{
+    float: left;
+}
+
+#section-four h3{
+    text-align: right;
+}
+
+#section-five p, #section-five h3{
+    max-width: 435px;
+    text-align: justify;
+    padding-left: 30px;
+}
+
+#section-five .img{
+    float: right;
+}
+ #section-six{
+     text-align: center;
+     padding-bottom: 20px;
+ }
+ #section-six a{
+     margin: 30px;
+ }
+
+
+
+
