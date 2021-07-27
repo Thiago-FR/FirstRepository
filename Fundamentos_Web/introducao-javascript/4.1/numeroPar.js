@@ -1,7 +1,3 @@
-let num1 = 131;
-let num2 = 132;
-let num3 = 131;
-
 let par1 = num1 % 2;
 let par2 = num2 % 2;
 let par3 = num3 % 2;
