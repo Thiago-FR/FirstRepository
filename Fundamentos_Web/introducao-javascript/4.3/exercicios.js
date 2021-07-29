@@ -90,7 +90,7 @@ for(let i = 1; i <= medio5; i+=1){
 
 //Exercicio 6
 console.log("------Exercicios 6 Bonus-------");
-let n6 = 391;
+let n6 = 13;
 let cont6 = 0;
 let div6 = n6;
 let result6 = 0;
