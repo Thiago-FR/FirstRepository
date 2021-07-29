@@ -22,7 +22,23 @@ for(let i =  0; i < n2; i+=1){
 
 //Exercicio 3
 console.log("------Exercicios 3-------");
-
+let n3 = 5;
+let contE = n3 - 1;
+let cont3 = "";
+for(let i = 0; i < n3; i += 1){
+  cont3 = "";
+  for(let j = 0; j < n3; j += 1){
+     cont3 += " ";     
+     if(j == contE){
+       for(let k = j; k < n3; k += 1){
+          cont3 += "*"
+       }      
+      contE -= 1;
+      break;
+     }
+ }
+ console.log(cont3);  
+}
 
 
 
