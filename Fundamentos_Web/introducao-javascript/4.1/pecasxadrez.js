@@ -1,4 +1,4 @@
-let peca = "CAVALO";
+let peca = "rei";
 
 let PECA = peca.toLowerCase();
 
