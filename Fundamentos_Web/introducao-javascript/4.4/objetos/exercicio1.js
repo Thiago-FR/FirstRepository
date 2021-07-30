@@ -1,4 +1,4 @@
-//Exercicio
+//Exercicios
 console.log("-------------Exercicio 1--------------");
 console.log();
 
