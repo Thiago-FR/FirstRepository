@@ -1,0 +1,45 @@
+div:hover{
+    border:5px dotted black;
+    /*
+        border-style: solid dotted dashed outset;
+    */    
+}
+
+div:nth-child(3) h3{
+    background-color: blue;
+    font-size: 2em;
+}
+
+div:nth-child(4) h3{
+    background-color: yellow;
+}
+
+div:nth-child(5) h3{
+    background-color: violet;
+}
+
+div:nth-child(6) h3{
+    background-color: darkred;
+}
+
+div:nth-child(7) h3{
+    background-color: aqua;
+}
+
+/*---------------------------*/
+
+div:nth-child(n) h3:hover{
+    color: #0F0;
+}
+
+/*-----------------------------*/
+
+div:nth-child(odd) h3{
+    font-style: italic;
+}
+
+
+
+
+
+
