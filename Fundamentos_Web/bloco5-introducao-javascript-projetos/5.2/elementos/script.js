@@ -24,5 +24,33 @@ let terceiroFilho = elentoOndeVoceEsta.nextElementSibling;
 //8 - Agora acesse o terceiroFilho a partir de pai .
 terceiroFilho2 = pai.lastElementChild.previousElementSibling;
 
+//Exercício Criando e Add. Elementos
+//1 - Crie um irmão para elementoOndeVoceEsta.
+let paiDeTodos = document.getElementById('pai');
+let createIrmao = document.createElement('section');
+
+createIrmao.id = "createIrmao";
+
+paiDeTodos.appendChild(createIrmao);
+
+//2 - Crie um filho para elementoOndeVoceEsta .
+let createFilho = document.createElement('section');
+
+createFilho.id = "createFilho";
+
+elentoOndeVoceEsta.appendChild(createFilho);
+
+//3 - Crie um filho para primeiroFilhoDoFilho .
+primeiroFilhoDoFilho.appendChild(createFilho);
+//console.log(elentoOndeVoceEsta.firstElementChild.firstElementChild);
+
+//4 - A partir desse filho criado, acesse terceiroFilho .
+let FilhoDoFilhoDoFilho = elentoOndeVoceEsta.firstElementChild.firstElementChild;
+let acessoTerceiroFilho = FilhoDoFilhoDoFilho.parentElement.parentElement.nextElementSibling;
+console.log(acessoTerceiroFilho);
+
+
+
+
 
     
