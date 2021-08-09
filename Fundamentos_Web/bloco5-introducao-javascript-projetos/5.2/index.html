@@ -68,9 +68,16 @@
 
         //#2
         let main = document.createElement('main');
-        main.id = 'main-contant';
+        main.className = 'main-content';
         body.appendChild(main);
-        console.log(document.querySelectorAll('main'));
+       
+        //#3
+        let section = document.createElement('section');
+        section.className = 'center-content';
+        main.appendChild(section);
+
+        //#4
+        console.log(document.firstElementChild);
 
     </script>
   </body>
