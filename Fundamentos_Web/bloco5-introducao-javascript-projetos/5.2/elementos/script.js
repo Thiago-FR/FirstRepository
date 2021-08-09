@@ -47,7 +47,22 @@ primeiroFilhoDoFilho.appendChild(createFilho);
 //4 - A partir desse filho criado, acesse terceiroFilho .
 let FilhoDoFilhoDoFilho = elentoOndeVoceEsta.firstElementChild.firstElementChild;
 let acessoTerceiroFilho = FilhoDoFilhoDoFilho.parentElement.parentElement.nextElementSibling;
-console.log(acessoTerceiroFilho);
+//console.log(document.querySelectorAll('#paiDoPai section'));
+
+
+// Exercicios Remover Elementos
+// Remova todos os elementos filhos de paiDoPai exceto pai , elementoOndeVoceEsta e primeiroFilhoDoFilho .
+/*let sections = document.querySelectorAll('#paiDoPai section');
+
+for(let index = pai.childNodes.length - 1; index >= 0; index -= 1){
+  let elements = pai.childNodes[index];
+
+  if(elements.id != 'elementoOndeVoceEsta'){
+    elements.remove();
+  }
+}
+console.log(document.querySelectorAll('#paiDoPai section'));*/
+
 
 
 
