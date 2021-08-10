@@ -61,6 +61,7 @@
         let body = document.getElementById('body');
         let h1 = document.createElement('h1');
         h1.id = 'h1';
+        h1.className = 'title';
 
         body.appendChild(h1);
         h1.innerHTML = 'Exercício 5.2 - JavaScript DOM ';
@@ -74,6 +75,7 @@
         //#3
         let section = document.createElement('section');
         section.className = 'center-content';
+        section.style.background = 'green';
         main.appendChild(section);
 
         //#4
@@ -89,6 +91,7 @@
         //#6
         let section3 = document.createElement('section');
         section3.className = 'right-content';
+        section3.style.marginRight = 'auto';
         main.appendChild(section3);
 
         //#7
@@ -124,9 +127,14 @@
         //#9        
         for(let index = 0; index < 3; index += 1){
           let h3 = document.createElement('h3');
+          h3.className = 'description';
           main.appendChild(h3);
         }
-        
+
+        main.removeChild(section);
+        linstaNaoOrdenada.lastChild.remove();
+        linstaNaoOrdenada.lastChild.remove();
+               
         console.log(document.firstElementChild);
 
     </script>
