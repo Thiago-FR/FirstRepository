@@ -40,13 +40,35 @@ function createDays(){
 
 //#2
 
-
-let feriado = 'Feriados';
-
 function btnFeriado(string){
   let btnContainer = document.querySelector('.buttons-container');
   let btnHoliday = document.createElement('button');
   btnHoliday.id = 'btn-holiday';
   btnHoliday.innerHTML = string;
   btnContainer.appendChild(btnHoliday);
+  
 }
+
+
+//#3
+
+let btnHolidayDay = document.getElementById("btn-holiday");
+
+  btnHolidayDay.addEventListener('click',btnFeriadoAction);
+
+
+function btnFeriadoAction(){
+  let btnAction = document.getElementsByClassName('holiday');
+  let backgroundColor = 'rgb(238,238,238)';
+  let colorwhite = 'white';
+  for(let index = 0; index < btnAction.length; index += 1){
+    if(btnAction[index].style.background == colorwhite){
+      btnAction[index].style.background = backgroundColor;  
+    } else{
+      btnAction[index].style.background = colorwhite;  
+    }   
+  }
+}
+
+/* */
+
