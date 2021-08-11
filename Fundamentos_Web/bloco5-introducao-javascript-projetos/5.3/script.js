@@ -19,7 +19,8 @@ btnSextaFeira("Sexta-Feira")
 funcBtnSexta();
 mouseZoom();
 minhasTarefa("cozinhar");
-corMinhasTarefas('blue');
+corMinhasTarefas('orange');
+selectTarefa();
 // Escreva seu código abaixo.
 
 //#1
@@ -31,6 +32,7 @@ function createDays(){
     let daysListItem = document.createElement('li');  
     daysListItem.innerHTML = days;  
     if(index === 0 || index === 1){
+      daysListItem.className = 'day'; 
       weekDays.appendChild(daysListItem); 
     }else if(days === 24 || days === 31){
       daysListItem.className = 'day holiday'; 
@@ -42,6 +44,7 @@ function createDays(){
       daysListItem.className = 'day holiday friday';
       weekDays.appendChild(daysListItem);
     }else{
+      daysListItem.className = 'day'; 
       weekDays.appendChild(daysListItem);
     }   
 }
@@ -142,15 +145,33 @@ function corMinhasTarefas(cor){
 }
 
 //#9
-let div = document.querySelector('.task');
-div.addEventListener('click',trocaClass);
+function selectTarefa(){
+  let div = document.querySelector('.task');
+  div.addEventListener('click',trocaClass);
 
-function trocaClass(){
-  let div = document.querySelector('.task');  
-  if(div.className == 'task'){
-    div.className = "task selected"
-  }else{
-    div.className = "task"
+  function trocaClass(){
+    let div = document.querySelector('.task');  
+    if(div.className == 'task'){
+      div.className = "task selected"
+    }else{
+      div.className = "task"
+    }
   }
+}
+
+//#10
+let div = document.getElementById('days');
+
+div.addEventListener('click',trocaSelecionaDay);
+
+function trocaSelecionaDay(){
+  let taskDiv = document.querySelector('.task');
+  let taskColor = taskDiv.style.background;
+  if(taskDiv.className == 'task selected'){
+    event.target.style.background = taskColor;
+  }else{
+    event.target.style.background = '#eee';
+  }
+  
 }
 
