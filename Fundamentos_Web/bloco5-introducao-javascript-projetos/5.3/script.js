@@ -14,7 +14,9 @@ function createDaysOfTheWeek() {
 createDaysOfTheWeek();
 createDays();
 btnFeriado("Feriados");
+funcBtnFeriado();
 btnSextaFeira("Sexta-Feita")
+funcBtnSexta();
 // Escreva seu código abaixo.
 
 //#1
@@ -27,12 +29,15 @@ function createDays(){
     daysListItem.innerHTML = days;  
     if(index === 0 || index === 1){
       weekDays.appendChild(daysListItem); 
-    }else if(days === 24 || days === 25 || days === 31){
+    }else if(days === 24 || days === 31){
       daysListItem.className = 'day holiday'; 
       weekDays.appendChild(daysListItem);   
-    }else if(days === 4 || days === 11 || days === 18 || days === 25){
+    }else if(days === 4 || days === 11 || days === 18){
       daysListItem.className = 'day friday';
       weekDays.appendChild(daysListItem); 
+    }else if(days === 25){
+      daysListItem.className = 'day holiday friday';
+      weekDays.appendChild(daysListItem);
     }else{
       weekDays.appendChild(daysListItem);
     }   
@@ -52,22 +57,21 @@ function btnFeriado(string){
 
 
 //#3
+function funcBtnFeriado(){ 
+  let btnHolidayDay = document.getElementById("btn-holiday");
+    btnHolidayDay.addEventListener('click',btnFeriadoAction);
 
-let btnHolidayDay = document.getElementById("btn-holiday");
-
-  btnHolidayDay.addEventListener('click',btnFeriadoAction);
-
-
-function btnFeriadoAction(){
-  let btnAction = document.getElementsByClassName('holiday');
-  let backgroundColor = 'rgb(238,238,238)';
-  let colorwhite = 'white';
-  for(let index = 0; index < btnAction.length; index += 1){
-    if(btnAction[index].style.background == colorwhite){
-      btnAction[index].style.background = backgroundColor;  
-    } else{
-      btnAction[index].style.background = colorwhite;  
-    }   
+  function btnFeriadoAction(){
+    let btnAction = document.getElementsByClassName('holiday');
+    let backgroundColor = 'rgb(238,238,238)';
+    let colorwhite = 'white';
+    for(let index = 0; index < btnAction.length; index += 1){
+      if(btnAction[index].style.background == colorwhite){
+        btnAction[index].style.background = backgroundColor;  
+      } else{
+        btnAction[index].style.background = colorwhite;  
+      }   
+    }
   }
 }
 
@@ -78,5 +82,24 @@ function btnSextaFeira(string){
   btnSextaFeira.id = 'btn-friday';
   btnSextaFeira.innerHTML = string;
   btnContainer.appendChild(btnSextaFeira);  
+}
+
+//#5
+function funcBtnSexta(){ 
+  let btnSextaFeira = document.getElementById("btn-friday");
+    btnSextaFeira.addEventListener('click',btnSextaAction);
+
+  function btnSextaAction(){
+    let btnAction = document.getElementsByClassName('friday');
+    let backgroundColor = 'rgb(238,238,238)';
+    let colorwhite = 'white';
+    for(let index = 0; index < btnAction.length; index += 1){
+      if(btnAction[index].style.background == colorwhite){
+        btnAction[index].style.background = backgroundColor;  
+      } else{
+        btnAction[index].style.background = colorwhite;  
+      }   
+    }
+  }
 }
 
