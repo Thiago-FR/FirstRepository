@@ -14,6 +14,7 @@ function createDaysOfTheWeek() {
 createDaysOfTheWeek();
 createDays();
 btnFeriado("Feriados");
+btnSextaFeira("Sexta-Feita")
 // Escreva seu código abaixo.
 
 //#1
@@ -70,5 +71,12 @@ function btnFeriadoAction(){
   }
 }
 
-/* */
+//#4
+function btnSextaFeira(string){
+  let btnContainer = document.querySelector('.buttons-container');
+  let btnSextaFeira = document.createElement('button');
+  btnSextaFeira.id = 'btn-friday';
+  btnSextaFeira.innerHTML = string;
+  btnContainer.appendChild(btnSextaFeira);  
+}
 
