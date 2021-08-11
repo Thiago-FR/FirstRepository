@@ -15,8 +15,9 @@ createDaysOfTheWeek();
 createDays();
 btnFeriado("Feriados");
 funcBtnFeriado();
-btnSextaFeira("Sexta-Feita")
+btnSextaFeira("Sexta-Feira")
 funcBtnSexta();
+mouseZoom();
 // Escreva seu código abaixo.
 
 //#1
@@ -102,4 +103,42 @@ function funcBtnSexta(){
     }
   }
 }
+
+//#6
+
+function mouseZoom(){
+  let posDays = document.getElementById('days');
+  posDays.addEventListener('mouseover',mouseOver);
+  posDays.addEventListener('mouseout',mouseOut);
+
+  function mouseOver(){
+    event.target.style.fontSize = '30px';
+    event.target.style.fontWeight = '600';
+  }
+  function mouseOut(){
+    event.target.style.fontWeight = '200';
+    event.target.style.fontSize = '20px';
+  }
+}
+
+/*unction dayMouseOver() {
+  let days = document.querySelector('#days');
+
+  days.addEventListener('mouseover', function(event) {
+    event.target.style.fontSize = '30px';
+    event.target.style.fontWeight = '600';
+  })
+};
+
+function dayMouseOut() {
+  let days = document.querySelector('#days');
+
+  days.addEventListener('mouseout', function(event) {
+    event.target.style.fontWeight = '200';
+    event.target.style.fontSize = '20px';
+  })
+};
+
+dayMouseOver();
+dayMouseOut();*/
 
