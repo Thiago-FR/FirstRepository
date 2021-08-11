@@ -18,6 +18,8 @@ funcBtnFeriado();
 btnSextaFeira("Sexta-Feira")
 funcBtnSexta();
 mouseZoom();
+minhasTarefa("cozinhar");
+corMinhasTarefas('blue');
 // Escreva seu código abaixo.
 
 //#1
@@ -122,3 +124,20 @@ function mouseZoom(){
 }
 
 //#7
+function minhasTarefa(string){
+  let span = document.createElement('span');
+  let div = document.querySelector('.my-tasks');
+  
+  span.innerHTML = string;
+  div.appendChild(span);
+}
+
+//#8
+function corMinhasTarefas(cor){
+  let div = document.createElement('div');
+  let divMyTask = document.querySelector('.my-tasks');
+  div.className = 'task';
+  div.style.background = cor;
+  divMyTask.appendChild(div);
+}
+
