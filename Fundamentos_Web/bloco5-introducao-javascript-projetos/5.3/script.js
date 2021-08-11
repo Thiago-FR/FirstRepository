@@ -141,3 +141,16 @@ function corMinhasTarefas(cor){
   divMyTask.appendChild(div);
 }
 
+//#9
+let div = document.querySelector('.task');
+div.addEventListener('click',trocaClass);
+
+function trocaClass(){
+  let div = document.querySelector('.task');  
+  if(div.className == 'task'){
+    div.className = "task selected"
+  }else{
+    div.className = "task"
+  }
+}
+
