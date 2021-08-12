@@ -181,13 +181,48 @@ let compromissos = document.getElementById('task-input');
 let btnAdd = document.getElementById("btn-add");
 
 
-
-btnAdd.addEventListener('click',function(){
-  let divContainer = document.getElementById('ul');
-  let input = document.getElementById('task-input');
-  
-  let sectionUl = document.createElement('li');
-  sectionUl.innerHTML = input.value;
-  sectionUl.style.textAlign = 'left';
-    divContainer.append(sectionUl);  
+compromissos.addEventListener('keyup',function(e){
+  let key = e.which || e.keyCode;
+  if (key == 13) { 
+    inputCompromisso();
+  }
 });
+
+btnAdd.addEventListener('click',inputCompromisso);
+
+function inputCompromisso(){
+  if(compromissos.value !== ''){
+    /*let divContainer = document.getElementById('ul');
+  
+    let sectionUl = document.createElement('li');
+    sectionUl.innerHTML = compromissos.value;
+    sectionUl.style.listStyle = 'none';
+    
+    divContainer.append(sectionUl);
+    compromissos.value = '';*/
+    let table = document.querySelector('table');
+
+    let tableTr = document.createElement('tr');
+    let tableTd = document.createElement('td');
+    let tableTd2 = document.createElement('td');
+
+    let btn = document.createElement('button');
+
+    table.appendChild(tableTr);
+
+    let tableTrCriada = document.querySelectorAll('tr');
+    for(let index = 0; index <= tableTrCriada.length; index += 1){
+      if(index === tableTrCriada.length){
+        //let tableTrDaVez = document.tag;
+        console.log(tableTrCriada[index]);
+        tableTd.innerHTML = compromissos.value;
+        tableTd2.innerHTML = '<i class="fas fa-times"></i>'
+        table.lastElementChild.append(tableTd);
+      }
+    }
+   
+
+    //table.innerHTML = 'i class="fas fa-times"></i>';
+
+  }
+}
