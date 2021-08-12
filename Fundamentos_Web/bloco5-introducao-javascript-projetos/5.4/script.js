@@ -1,9 +1,26 @@
+//Criação das Section e Inputs Via Script
+/*let mainContent = document.querySelector('main');
+let sectionOne = document.createElement('section');
+sectionOne.className = 'inputs';
+mainContent.appendChild(sectionOne);
+
+let labelCorFundo = document.createElement('label');
+labelCorFundo.for = 'cor';
+labelCorFundo.innerHTML = 'Fundo2';
+sectionOne.appendChild(labelCorFundo);
+
+let inputCorFundo = document.createElement('input');
+inputCorFundo.type = 'color';
+inputCorFundo.id = 'corFundo';
+labelCorFundo.appendChild(inputCorFundo);*/
+
 let corFundo = document.getElementById('corFundo');
 let corTexto = document.getElementById('corText');
 let rangeTexto = document.getElementById('rangeText');
 let rangeHeight = document.getElementById('rangeHeight');
 let fonte = document.getElementById('fonte');
 let body = document.getElementById('container');
+
 initialRenderization();
 
 corFundo.addEventListener('input', function(){
