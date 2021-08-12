@@ -177,3 +177,17 @@ function trocaSelecionaDay(){
 
 //#Bonus
 
+let compromissos = document.getElementById('task-input');
+let btnAdd = document.getElementById("btn-add");
+
+
+
+btnAdd.addEventListener('click',function(){
+  let divContainer = document.getElementById('ul');
+  let input = document.getElementById('task-input');
+  
+  let sectionUl = document.createElement('li');
+  sectionUl.innerHTML = input.value;
+  sectionUl.style.textAlign = 'left';
+    divContainer.append(sectionUl);  
+});
