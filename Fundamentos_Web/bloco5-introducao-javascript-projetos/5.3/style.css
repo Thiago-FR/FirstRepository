@@ -55,6 +55,14 @@ label {
   vertical-align: middle;
 }
 
+table{
+  margin-left: 35%;
+}
+
+table td{
+  padding-left: 20px;
+}
+
 .month-container {
   background: green;
   padding: 40px 25px;
