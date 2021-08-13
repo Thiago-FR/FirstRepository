@@ -187,11 +187,13 @@ compromissos.addEventListener('keyup',function(e){
     inputCompromisso();
   }
 });
-
+let buttonActivi = false;
 btnAdd.addEventListener('click',inputCompromisso);
+
 
 function inputCompromisso(){
   if(compromissos.value !== ''){
+    //Solicitado no exercicio
     /*let divContainer = document.getElementById('ul');
   
     let sectionUl = document.createElement('li');
@@ -200,29 +202,22 @@ function inputCompromisso(){
     
     divContainer.append(sectionUl);
     compromissos.value = '';*/
+    buttonActivi = true;
     let table = document.querySelector('table');
 
     let tableTr = document.createElement('tr');
     let tableTd = document.createElement('td');
-    let tableTd2 = document.createElement('td');
 
     let btn = document.createElement('button');
 
     table.appendChild(tableTr);
 
-    let tableTrCriada = document.querySelectorAll('tr');
-    for(let index = 0; index <= tableTrCriada.length; index += 1){
-      if(index === tableTrCriada.length){
-        //let tableTrDaVez = document.tag;
-        console.log(tableTrCriada[index]);
-        tableTd.innerHTML = compromissos.value;
-        tableTd2.innerHTML = '<i class="fas fa-times"></i>'
-        table.lastElementChild.append(tableTd);
-      }
-    }
-   
+    tableTd.innerHTML = compromissos.value;
+    btn.className = 'btn btn-danger';
+    btn.innerHTML = '<i class="fas fa-times"></i>';
 
-    //table.innerHTML = 'i class="fas fa-times"></i>';
+    table.lastElementChild.append(tableTd);
+    table.lastElementChild.append(btn);    
 
   }
 }
