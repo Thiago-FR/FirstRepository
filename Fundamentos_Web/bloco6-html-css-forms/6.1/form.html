@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="">
+    <fieldset>
+      <legend>Daodos Pessoais</legend>
+      <div>
+        <label for="name">Nome</label>
+        <br>
+        <input id="name" type="text" required maxlength="40" size="60">
+      </div>
+      <div>
+        <label for="email">E-mail</label>
+        <br>
+        <input id="email" type="email" required maxlength="50" size="60">
+      </div>
+      <div>
+        <label for="cpf">CPF</label>
+        <br>
+        <input id="cpf" type="numver" required maxlength="11" size="25">
+      </div>
+      <div>
+        <label for="endereco">Endereço</label>
+        <br>
+        <input id="endereco" type="text" required maxlength="200" size="150">
+      </div>
+      <div>
+        <label for="cidade">Cidade</label>
+        <br>
+        <input id="cidade" type="text" required maxlength="28" size="25">
+      </div>
+      <div>
+        <label for="estado-select">Estado</label>
+        <br>
+        <select id="estado-select" name="estado" ></select>
+      </div>
+      <div>
+        <label for="">Residência</label>
+        <br>
+        <input id="casa" type="radio" name="home" required value="casa">Casa
+        <input id="ap" type="radio" name="home" required value="ap">Apartamento
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Último Emprego</legend>
+      <div>
+        <label for="resumo">Resumo do currículo</label>
+        <br>
+        <textarea name="resumo" id="resumo-c" required cols="30" rows="10" maxlength="1000"></textarea>
+      </div>
+      <div>
+        <label for="cargo-c">Cargo</label>
+        <br>
+        <textarea name="cargo" id="cargo-c" required maxlength="40" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <label for="data-inicio">Data de Início</label>
+        <br>
+        <input id="date" type="date" required min="1900-01-01" max="2021-12-31">
+        <br>
+      </div>
+    </fieldset>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
