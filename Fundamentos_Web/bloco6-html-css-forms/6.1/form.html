@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
@@ -13,27 +14,27 @@
       <div>
         <label for="name">Nome</label>
         <br>
-        <input id="name" type="text" required maxlength="40" size="60">
+        <input id="name" type="text" name="name" required maxlength="40" size="60">
       </div>
       <div>
         <label for="email">E-mail</label>
         <br>
-        <input id="email" type="email" required maxlength="50" size="60">
+        <input id="email" type="email" name="email" required maxlength="50" size="60">
       </div>
       <div>
         <label for="cpf">CPF</label>
         <br>
-        <input id="cpf" type="numver" required maxlength="11" size="25">
+        <input id="cpf" type="number" name="cpf" required maxlength="11" size="25">
       </div>
       <div>
         <label for="endereco">Endereço</label>
         <br>
-        <input id="endereco" type="text" required maxlength="200" size="150">
+        <input id="endereco" type="text" name="endereco" required maxlength="200" size="150">
       </div>
       <div>
         <label for="cidade">Cidade</label>
         <br>
-        <input id="cidade" type="text" required maxlength="28" size="25">
+        <input id="cidade" type="text" naem="cidade" required maxlength="28" size="25">
       </div>
       <div>
         <label for="estado-select">Estado</label>
@@ -66,6 +67,7 @@
         <br>
       </div>
     </fieldset>
+    <button class="submit-button" type="submit">Enviar</button>
   </form>
   <script src="script.js"></script>
 </body>
