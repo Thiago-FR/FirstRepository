@@ -78,7 +78,9 @@ function check(element){
   }
 }
 
-function objForms() {  
+function objForms() { 
+  let data = new Date(dateID.value);
+  let dataFormatada = ((data.getDate() )) + "/" + ((data.getMonth() + 1)) + "/" + data.getFullYear(); 
   const formsObj = {
     'Nome: ': nameID.value,
     'E-mail: ': emailID.value,
@@ -89,6 +91,7 @@ function objForms() {
     'Estado: ': estadosSelect.value,
     'Resumo: ': resumoD.value,
     'Cargo: ': cargoD.value,
+    'Data Início: ': dataFormatada
   }
   return formsObj;
 }

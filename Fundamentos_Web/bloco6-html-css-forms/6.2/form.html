@@ -4,73 +4,76 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css">
   <script src="jquery-3.6.0.min.js"></script>
   <script src="bootstrap-5.1.0-dist/js/bootstrap.min.js"></script>
   <title>Document</title>
 </head>
-<body>
-  <form action="">
-    <fieldset>
-      <legend>Daodos Pessoais</legend>
-      <div>
-        <label for="name">Nome</label>
+<body class="container-lg">
+  <form class="form-control">
+    <fieldset class="form-control">
+      <legend>Dados Pessoais</legend>
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="name">Nome</label>
         <br>
-        <input id="name" type="text" name="name" required maxlength="40" size="60">
+        <input class="form-control" id="name" type="text" name="name" required maxlength="40" size="60">
       </div>
-      <div>
-        <label for="email">E-mail</label>
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="email">E-mail</label>
         <br>
-        <input id="email" type="email" name="email" required maxlength="50" size="60">
+        <input class="form-control" id="email" type="email" name="email" required maxlength="50" size="60">
       </div>
-      <div>
-        <label for="cpf">CPF</label>
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="cpf">CPF</label>
         <br>
-        <input id="cpf" type="number" name="cpf" required maxlength="11" size="25">
+        <input class="form-control" id="cpf" type="number" name="cpf" required maxlength="11" size="25">
       </div>
-      <div>
-        <label for="endereco">Endereço</label>
+      <div class="input-group mb-3">
+        <label class="input-group-text"  for="endereco">Endereço</label>
         <br>
-        <input id="endereco" type="text" name="endereco" required maxlength="200" size="150">
+        <input class="form-control" id="endereco" type="text" name="endereco" required maxlength="200" size="150">
       </div>
-      <div>
-        <label for="cidade">Cidade</label>
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="cidade">Cidade</label>
         <br>
-        <input id="cidade" type="text" naem="cidade" required maxlength="28" size="25">
+        <input class="form-control" id="cidade" type="text" naem="cidade" required maxlength="28" size="25">
       </div>
-      <div>
-        <label for="estado-select">Estado</label>
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="estado-select">Estado</label>
         <br>
-        <select id="estado-select" name="estado" ></select>
+        <select class="form-select" id="estado-select" name="estado" ></select>
       </div>
-      <div>
-        <label for="">Residência</label>
-        <br>
-        <input id="casa" type="radio" name="home" required value="Casa">Casa
-        <input id="ap" type="radio" name="home" required value="Apartamento">Apartamento
+      <div class="input-group-text">
+        <label class="form-control" for="casa">Casa</label>
+        <input class="form-check-input" id="casa" type="radio" name="home" required value="Casa">
+      </div>
+      <div class="input-group-text">
+        <label class="form-control" for="ap">Apartamento</label>
+        <input  class="form-check-input" id="ap" type="radio" name="home" required value="Apartamento">
       </div>
     </fieldset>
-    <fieldset>
+    <fieldset class="form-control mb-3">
       <legend>Último Emprego</legend>
       <div>
-        <label for="resumo">Resumo do currículo</label>
+        <label class="form-label" for="resumo">Resumo do currículo</label>
         <br>
-        <textarea name="resumo" id="resumo-c" required cols="30" rows="10" maxlength="1000"></textarea>
+        <textarea class="form-control" name="resumo" id="resumo-c" required cols="30" rows="10" maxlength="1000" style="resize: none"></textarea>
       </div>
-      <div>
-        <label for="cargo-c">Cargo</label>
+      <div class="mb-3">
+        <label class="form-label" for="cargo-c">Cargo</label>
         <br>
-        <textarea name="cargo" id="cargo-c" required maxlength="40" cols="30" rows="10"></textarea>
+        <textarea class="form-control" name="cargo" id="cargo-c" required maxlength="40" cols="30" rows="10" style="resize: none"></textarea>
       </div>
-      <div>
-        <label for="data-inicio">Data de Início</label>
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="data-inicio">Data de Início</label>
         <br>
-        <input id="date" type="date" required min="1900-01-01" max="2021-12-31">
+        <input class="form-control-sm" id="date" type="date" required min="1900-01-01" max="2021-12-31">
         <br>
       </div>
     </fieldset>
-    <button class="submit-button" type="submit">Enviar</button>
+    <div class="input-group mb-3">
+      <button class="btn btn-primary submit-button" type="submit">Enviar</button>
+    </div>
   </form>
   <script src="script.js"></script>
 </body>
