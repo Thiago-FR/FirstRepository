@@ -79,6 +79,8 @@ function check(element){
 }
 
 function objForms() { 
+  //  Algoritimo para inversão de Data utilizado do Link:
+  //  https://blog.betrybe.com/javascript/javascript-date-format/
   let data = new Date(dateID.value);
   let dataFormatada = ((data.getDate() )) + "/" + ((data.getMonth() + 1)) + "/" + data.getFullYear(); 
   const formsObj = {
