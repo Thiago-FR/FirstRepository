@@ -29,7 +29,6 @@ const estados = {
   TO: 'Tocantins'
 }
 
-const corpo = document.querySelector('body');
 const nameID = document.getElementById('name');
 const emailID = document.getElementById('email');
 const cpfID = document.getElementById('cpf');
@@ -40,8 +39,13 @@ const casaID = document.getElementsByName('home');
 const resumoD = document.getElementById('resumo-c');
 const cargoD = document.getElementById('cargo-c');
 const dateID = document.getElementById('date');
+const formComplet = document.getElementById('form-complet');
 const div = document.createElement('div');
 const paragrafo = document.createElement('p');
+const btnEnviar = document.querySelector('.submit-button');
+const btnLimpar = document.getElementById('btn-limpar');
+
+btnLimpar.disabled = true;
 
 for(let index in estados){
   const estadoBr = document.createElement('option');
@@ -99,11 +103,10 @@ function objForms() {
 }
 
 function criarDiv(objForms) {
-  corpo.appendChild(div);
   for(let index in objForms){
     const paragrafo = document.createElement('p');
     paragrafo.innerHTML = index + objForms[index];
-    div.appendChild(paragrafo);
+    formComplet.appendChild(paragrafo);
   }
 }
 
@@ -113,10 +116,31 @@ function addHandler(event) {
   verificaEmail();
 
   criarDiv(objForms());
+  btnEnviar.disabled = true;
+  btnLimpar.disabled = false;
 }
 
-window.onload = function() {
-  const btnEnviar = document.querySelector('.submit-button');
-  btnEnviar.addEventListener('click',addHandler);
+function limparForm(){
+    nameID.value = '';
+    emailID.value = '';
+    cpfID.value = '';
+    enderecoID.value = '';
+    //check(casaID = '';
+    cidadeID.value = estados.NONE;
+    estadosSelect.value = '';
+    resumoD.value = '';
+    cargoD.value = '';
+
+    while(formComplet.firstChild){
+      formComplet.removeChild(formComplet.firstChild);
+    }   
+    
+    btnEnviar.disabled = false;
+    btnLimpar.disabled = true;
 }
 
+btnLimpar.addEventListener('click', limparForm);
+
+window.onload = function() {  
+  btnEnviar.addEventListener('click',addHandler);  
+}
