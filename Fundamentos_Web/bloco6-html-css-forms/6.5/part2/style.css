@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin-left: 25px;
+  text-align: justify;
+}
+
+article h1 {
+  width: 80%;
+}
+
+article p {
+  width: 90%;
+}
+
+footer {
+  width: 90%;
+}
