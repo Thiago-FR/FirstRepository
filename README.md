@@ -33,25 +33,40 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 4-2: _JavaScript - Array e loop For_
 - [X] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [X] 4-4: _JavaScript - Objetos e funções_
-- [X] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-015-a-project-playground-functions)_
+- [X] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-015-a-project-playground-functions/tree/thiago-ferreira-rose-playground-functions)_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
 - [X] 5-1: _JavaScript - DOM e seletores_
 - [X] 5-2: _JavaScript - Trabalhando com elementos_
 - [X] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _[Projeto - Meme Generator]()_
-- [ ] 5-6: _[Projeto - Arte com Pixels]()_
-- [ ] 5-7: _[Projeto - Lista de tarefas]()_
-- [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
-- [ ] 5-7: _[Projeto - Carta Misteriosa]()_
+- [X] 5-4: _JavaScript - Web Storage_
+- [X] 5-5: _[Projeto - Meme Generator](https://github.com/tryber/sd-015-a-project-meme-generator/tree/thiago-ferreira-rose-meme-generator)_
+- [X] 5-6: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-015-a-project-pixels-art/tree/thiago-ferreira-rose-pixels-art)_
+- [X] 5-7: _[Projeto - Lista de tarefas](https://github.com/tryber/sd-015-a-project-todo-list/tree/thiago-ferreira-rose-list-project)_
+- [X] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/tryber/sd-015-a-project-color-guess/tree/thiago-ferreira-rose-color-guess)_
+- [X] 5-7: _[Projeto - Carta Misteriosa](https://github.com/tryber/sd-015-a-project-mistery-letter/tree/thiago-ferreira-rose-mistery-letter)_
 
 ##### Bloco 6: HTML & CSS avançado
 
-- [ ] 6-1: _HTML & CSS - Forms_
-- [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 6-3: _CSS Flexbox - Part 1_
-- [ ] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _CSS Responsivo - Mobile First_
+- [X] 6-1: _HTML & CSS - Forms_
+- [X] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+- [X] 6-3: _CSS Flexbox - Part 1_
+- [X] 6-4: _CSS Flexbox - Part 2_
+- [X] 6-5: _CSS Responsivo - Mobile First_
 - [ ] 6-6: _[Projeto - Página inicial do Facebook]()_
+
+##### Bloco 7: JavaScript ES6 & Testes Unitários
+
+- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [ ] 7-2: _JavaScript ES6 - Objects_
+- [ ] 7-3: _Testes unitários em JavaScript_
+- [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+
+##### Bloco 8: JavaScript ES6
+
+- [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
+- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [ ] 8-5: _[Projeto - Zoo functions]()_
