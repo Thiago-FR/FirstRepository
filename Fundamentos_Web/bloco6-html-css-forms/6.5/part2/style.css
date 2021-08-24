@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin-left: 25px;
+  text-align: justify;
+}
+
+article h1 {
+  width: 80%;
+}
+
+article p {
+  width: 90%;
+}
+
+footer {
+  width: 90%;
+}
+
+@media screen and (min-width: 785px) {
+  body {
+    margin-left: 50px;
+  }
+
+  article h1 {
+    text-align: center;
+    width: 100%;
+  }
+
+  article p {
+    width: 95%;
+  }
+
+  ul {
+    list-style: none;
+    margin-right: 50px;
+  }
+
+  header {
+    margin: 0;
+    text-align: center;
+  }
+
+  aside {
+    text-align: center;
+  }
+  
+}
