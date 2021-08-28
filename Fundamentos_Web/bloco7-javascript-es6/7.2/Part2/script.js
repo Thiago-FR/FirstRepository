@@ -96,7 +96,30 @@ const verificarParTwo = (obj, chave, valor) => {
   return newObj;
 }
 
-console.log(verificarParTwo(allLessons, 'professor', 'Carlos'));
+//console.log(verificarParTwo(allLessons, 'professor', 'Carlos'));
 
-//console.log(verificarPar(allLessons, 'professor', 'Maria Clara'));
+//Crie uma função que deverá retornar um objeto que representa o relatório do professor ou professora, as aulas que ele ou ela ministrou e o número total de estudantes. Use o objeto criado no exercício 5:
 
+const infoProf = (obj, valor) => {
+  const materias = [];
+  let alunos = 0;
+  const array = Object.values(obj);
+  for (index in array) {
+    if (array[index].professor === valor) {
+      materias.push(array[index].materia);
+      alunos += array[index].numeroEstudantes;
+    }
+    //console.log(array[index].professor);
+  }
+  
+  return {lessons: materias, estudantes: alunos};
+}
+
+const juntaInfo = (obj, valor) => {
+  const newObj = {};
+  newObj.professor = valor;
+  Object.assign(newObj, infoProf(allLessons, valor));
+  return newObj;
+}
+
+console.log(juntaInfo(allLessons, 'Maria Clara'));
