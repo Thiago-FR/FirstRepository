@@ -36,3 +36,90 @@ const returnValue = order => Object.values(order);
 
 //Exercício 5
 const allLessons = Object.assign({}, {lesson1, lesson2, lesson3})
+
+//Exercício Bonus 1
+const somaEstudantes = obj => {
+  let total = 0;
+  const array = Object.keys(obj);
+  for (index in array) {
+    total += obj[array[index]].numeroEstudantes;
+  }
+  return total;
+}
+
+function consulta(obj, nome) {
+  const number = Object.values(obj);
+}
+
+//console.log(somaEstudantes(allLessons));
+
+//Exercício Bonus - Existe na função
+
+const verificarPar = (obj, chave, valor) => {
+  const newObj = {};
+  const array = Object.keys(obj);
+  for (index in array) {
+    const objSection = obj[array[index]];
+    const arrayKeys = Object.keys(objSection);
+    const arrayValues = Object.values(objSection);
+    //console.log(array[index]);
+
+    /*if (arrayKeys[index] === chave) {
+      console.log('igual')
+    }*/
+    //console.log(Object.values(objSection));
+    for(html in arrayKeys){
+      const chaveKey = arrayKeys[html];
+      const valorKey = arrayValues[html]
+       if (chaveKey === chave && valorKey === valor) {
+        console.log(`Existe na função ${array[index]}`)
+      }
+    }
+  }
+  return newObj;
+}
+
+//Exercício Bonus - Existe na função - modo 2
+
+const verificarParTwo = (obj, chave, valor) => {
+  const newObj = {};
+  const array = Object.keys(obj);
+  for (index in array) {
+    const objSection = obj[array[index]];
+    const arrayKeys = Object.entries(objSection);
+    for(html in arrayKeys){
+       if (arrayKeys[html][0] === chave && arrayKeys[html][1] === valor) {
+        console.log(`Existe na função ${array[index]}`)
+      }
+    }
+  }
+  return newObj;
+}
+
+//console.log(verificarParTwo(allLessons, 'professor', 'Carlos'));
+
+//Crie uma função que deverá retornar um objeto que representa o relatório do professor ou professora, as aulas que ele ou ela ministrou e o número total de estudantes. Use o objeto criado no exercício 5:
+
+const infoProf = (obj, valor) => {
+  const materias = [];
+  let alunos = 0;
+  const array = Object.values(obj);
+  for (index in array) {
+    if (array[index].professor === valor) {
+      materias.push(array[index].materia);
+      alunos += array[index].numeroEstudantes;
+    }
+    //console.log(array[index].professor);
+  }
+  
+  return {lessons: materias, estudantes: alunos};
+}
+
+const juntaInfo = (obj, valor) => {
+  const newObj = {};
+  newObj.professor = valor;
+  Object.assign(newObj, infoProf(allLessons, valor));
+  return newObj;
+}
+
+console.log(juntaInfo(allLessons, 'Maria Clara'));
