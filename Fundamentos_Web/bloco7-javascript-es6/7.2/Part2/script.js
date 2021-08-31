@@ -37,7 +37,7 @@ const returnValue = order => Object.values(order);
 //Exercício 5
 const allLessons = Object.assign({}, {lesson1, lesson2, lesson3})
 
-//Exercício Bonus 1
+//Exercício 6
 const somaEstudantes = obj => {
   let total = 0;
   const array = Object.keys(obj);
@@ -51,9 +51,30 @@ function consulta(obj, nome) {
   const number = Object.values(obj);
 }
 
+//Exercício 7
+
+function retornarValor(lesson, chave) {
+  let cont = 0;
+  let name;
+  for (index in lesson) {   
+    if (cont === chave) {
+      name = lesson[index];
+    }
+    cont += 1;
+  }
+  return name;
+}
+
+//console.log(retornarValor(lesson1, 0))
+
+// Exércicio 7 simplificado
+const getValeu = (obj, value) => Object.values(obj)[value];
+//console.log(getValeu(lesson1, 1));
+
+
 //console.log(somaEstudantes(allLessons));
 
-//Exercício Bonus - Existe na função
+//Exercício 8 - Existe na função
 
 const verificarPar = (obj, chave, valor) => {
   const newObj = {};
@@ -79,7 +100,7 @@ const verificarPar = (obj, chave, valor) => {
   return newObj;
 }
 
-//Exercício Bonus - Existe na função - modo 2
+//Exercício 8 - Existe na função - modo 2
 
 const verificarParTwo = (obj, chave, valor) => {
   const newObj = {};
@@ -97,6 +118,8 @@ const verificarParTwo = (obj, chave, valor) => {
 }
 
 //console.log(verificarParTwo(allLessons, 'professor', 'Carlos'));
+
+//Exercício Bonus 2
 
 //Crie uma função que deverá retornar um objeto que representa o relatório do professor ou professora, as aulas que ele ou ela ministrou e o número total de estudantes. Use o objeto criado no exercício 5:
 
@@ -122,4 +145,4 @@ const juntaInfo = (obj, valor) => {
   return newObj;
 }
 
-console.log(juntaInfo(allLessons, 'Maria Clara'));
+//console.log(juntaInfo(allLessons, 'Maria Clara'));
