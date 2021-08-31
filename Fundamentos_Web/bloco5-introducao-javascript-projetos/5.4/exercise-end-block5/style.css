@@ -1,0 +1,42 @@
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  border: 3px solid darkgreen;
+  padding: 30px;  
+  text-align: center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.triangle {
+ 
+}
+
+.line {
+  
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: darkgreen;
+  display: inline-block;
+  background: darkgreen;
+}
+
+.box-empty {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: inline-block;
+}
+
+.visit {
+  padding: 30px;
+}
