@@ -115,3 +115,39 @@ assert.strictEqual(out4, exp4);
 assert.strictEqual(out5, exp5);
 ```
 
+## Bônus 3
+
+Escreva a função removeMiddle para passar nos testes já implementados
+
+```
+const assert = require('assert');
+// escreva a função removeMiddle aqui
+
+const words = ['mouse', 'giraffe', 'queen', 'window', 'bottle'];
+const expectedWords = ['mouse', 'giraffe', 'window', 'bottle'];
+const expectedOutput = ['queen'];
+const output = removeMiddle(words);
+
+assert.deepStrictEqual(output, expectedOutput);
+assert.deepStrictEqual(words, expectedWords);
+```
+
+## Bônus 4
+
+Use a variável parameter como parâmetro da função abaixo, escreva testes para verificar se a mesma está retornando como se vê na variável result e, caso não esteja, altere o código para que ele passe nos testes.
+Lembre-se: testes pequenos e numerosos! Escreva um por vez e vá corrigindo a função aos poucos.
+
+```
+const getLargestNumber = (array) => {
+    let largestNumber;
+    for (let index = 0; index < array.length - 1; index += 1) {
+        if (array[index] > array[index + 1]) {
+            largestNumber = [array[index]];
+        }
+    }
+    return largestNumber;
+}
+
+const parameter = [45, 8, 2, 50, 1, 7, 99];
+const result = 99;
+```
