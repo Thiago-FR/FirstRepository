@@ -12,8 +12,9 @@ function containsA() {
   return names.reduce((arr, names) => arr + names.split('').reduce((acuum, current) => {
     if (current === 'a' || current === 'A') return acuum + 1;
     return acuum;
- }, 0), 0);
+ },0),0);
 }
+
 console.log(containsA());
 assert.deepStrictEqual(containsA(), 20);
 
