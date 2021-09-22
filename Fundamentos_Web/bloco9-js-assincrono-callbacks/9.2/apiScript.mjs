@@ -1,6 +1,7 @@
 import fetch from 'node-fetch';
 // apiScript.js
-const API_URL = 'https://icanhazdadjoke.com/';
+
+const API_URL = 'https://api.mercadolibre.com/items/MLB1341706310';
 
 const imprimiDom = (data) => {
   const id = document.querySelector('#jokeContainer');
@@ -20,7 +21,7 @@ const fetchJoke = () => {
     .then((data) => console.log(data))
 };
 
-//fetchJoke();
+fetchJoke();
 
 // ********** Segunda Parte *************
 
