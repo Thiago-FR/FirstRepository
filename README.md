@@ -67,6 +67,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [X] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-5: _[Projeto - Zoo functions]()_
+- [X] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
+- [X] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [X] 8-5: _[Projeto - Zoo functions](https://github.com/tryber/sd-015-a-project-zoo-functions/tree/thiago-ferreira-rose-zoo-functions)_
+
+##### Bloco 9: Assincronicidade & Callbacks
+
+- [x] 9-1: _JavaScript Assíncrono e Callbacks_
+- [x] 9-2: _JavaScript Promises_
+- [x] 9-3: _[Projeto - Carrinho de Compras](https://github.com/tryber/sd-015-a-project-shopping-cart/tree/thiago-ferreira-rose-shopping-cart)_
+
+##### Bloco 10: Jest
+
+- [x] 10-1: _Primeiros passos no Jest_
+- [x] 10-2: _Jest - Testes Assí­ncronos_
+- [ ] 10-3: _Jest - Simulando comportamentos_
+- [ ] 10-4: _[Projeto - Jest AssÃ­ncrono e Mocking]()_

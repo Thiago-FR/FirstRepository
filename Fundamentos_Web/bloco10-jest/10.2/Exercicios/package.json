@@ -1,0 +1,15 @@
+{
+  "name": "10.2",
+  "version": "1.0.0",
+  "description": "1 - Escreva um teste que verifique a chamada do callback de uma função **uppercase** , que transforma as letras de uma palavra em letras maiúsculas. Lembre-se de ter cuidado com os falso-positivos em testes assíncronos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.4"
+  }
+}
