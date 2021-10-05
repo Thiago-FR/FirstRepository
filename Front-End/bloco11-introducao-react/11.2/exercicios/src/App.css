@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  padding: 20px;
+}
+
+.container-main {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info-poke {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgb(228, 222, 222);
+  margin: 10px;
+  width: 170px;
+  padding: 10px;
+}
+
+.info-poke-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  align-self: center;
+}
