@@ -8,7 +8,8 @@ class Pokedex extends React.Component {
       <div className='container-main'>
         {data.map(poke => {
           return (
-            <Pokemon 
+            <Pokemon
+            key={poke.name}
             name={poke.name} 
             type={poke.type} 
             weight={poke.averageWeight.value}
