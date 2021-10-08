@@ -11,7 +11,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 11: Introdução - React
 
 - [x] 11-1A: _'Hello, world!' no React!_
-- [x] 11-2A: _Componentes React_ [PokéDex](https://github.com/tryber/sd-015-a-project-movie-cards-library/tree/thiago-ferreira-rose-movie-cards-librar)
+- [x] 11-2A: _Componentes React_ - [PokéDex](https://github.com/Thiago-FR/exercise-pokedex-state)
 - [x] 11-3A: _[Projeto - Movie Cards Library](https://github.com/tryber/sd-015-a-project-movie-cards-library/tree/thiago-ferreira-rose-movie-cards-librar)_
 
 ##### Bloco 12: React

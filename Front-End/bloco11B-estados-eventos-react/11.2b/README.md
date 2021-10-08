@@ -66,5 +66,5 @@ Abaixo, um exemplo com todos os bônus feitos:
 
 ![Pokedex finalizada](images/pokedex.gif)
 
-Meu Projeto Finalizado: [PokéDex](https://github.com/tryber/sd-015-a-project-movie-cards-library/tree/thiago-ferreira-rose-movie-cards-librar)
+Meu Projeto Finalizado: [PokéDex]((https://github.com/Thiago-FR/exercise-pokedex-state))
 
