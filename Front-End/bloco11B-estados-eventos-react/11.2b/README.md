@@ -1,70 +1,54 @@
-Esse é um projeto para o conteúdo de `Componentes com estado`.
+# Exercício - Criando um formulário em React
 
-### Antes de iniciar
+* Crie um novo projeto, utilizando **npx create-react-app my-form-2.0**
 
-Crie um fork desse [projeto](https://github.com/tryber/exercise-pokedex-state) e para isso siga esse [tutorial de como realizar um fork](https://guides.github.com/activities/forking/).
+* Caso julgue necessário, crie estilos **CSS** para seu formulário, de acordo com a sua imaginação.
 
-Após feito o fork, clone o repositório criado para o seu computador.
+* Faça tudo utilizando as abstrações do **React**.
 
-Rode o `npm install`.
+Vamos criar um formulário de cadastro de currículo com base na especificação seguintes:
 
-Vá para a branch master do seu projeto e execute o comando:
+1. Crie um `<fieldset>` para os dados pessoais a seguir:
 
-`git branch` ou `git branch -a` 
+* Nome - Texto
+  * Limite de 40 caracteres
+  * Todos os caracteres devem ser transformados para **UPPER CASE** assim que forem digitados.
+  * Campo obrigatório
+* Email - Texto
+  * Limite de 50 caracteres
+  * Campo obrigatório
+* CPF - Texto
+ *  Limite de 11 caracteres
+  * Campo obrigatório
+* Endereço - Texto
+  * Limite de 200 caracteres
+  * Remover qualquer caracter especial que seja digitado
+  * Campo obrigatório
+* Cidade - Texto
+  * Limite de 28 caracteres
+  * Ao remover o foco desse campo (evento **onBlur** ), verificar se o nome da cidade começa com números. Caso comece, limpar o campo.
+  * Campo obrigatório.
+* Estado - ComboBox
+  * Todos os estados do Brasil
+  * Campo obrigatório.
+* Tipo - Radio Button
+  * Casa, Apartamento
+  * Campo obrigatório.
 
-Mude para a branch pokedex-state com o comando git checkout -b pokedex-state. É nessa branch que você realizará a solução para o exercício.
+2. Crie outro `<fieldset>` para dados do seu último emprego:
 
-Observe o que deve ser feito nas instruções.
+* Resumo do currículo - TextArea
+  * Limite de 1000 caracteres
+  * Campo obrigatório.
+* Cargo - TextArea
+  * Limite de 40 caracteres
+  * Quando o mouse passar por cima deste campo (evento **onMouseEnter** ), exibir um alerta dizendo 'Preencha com cuidado esta informação.'. Exiba essa mensagem apenas uma vez.
+  * Campo obrigatório
+* Descrição do cargo - Texto
+  * Limite de 500 caracteres
+  * Campo obrigatório
 
-Após a solução dos exercícios, abra um PR no seu repositório forkado e, se quiser, mergeie para a master, sinta-se a vontade!
+4. Crie um botão que, ao ser clicado, monta uma `<div>` com o consolidado dos dados que foram inseridos no formulário.
+5. Crie um botão Limpar que limpa todos os campos do formulário e a `<div>` com seu currículo também.
 
-**Atenção!** Quando for criar o PR você irá se deparar com essa tela:
-
-![PR do exercício](images/example-pr.png)
-
-É necessário realizar uma mudança. Clique no *base repository* como na imagem abaixo:
-
-![Mudando a base do repositório](images/change-base.png)
-
-Mude para o seu repositório. Seu nome estará na frente do nome dele, por exemplo: `antonio/pokedex-state`. Depois desse passo a página deve ficar assim:
-
-![Após mudança](images/after-change.png)
-
-Agora basta criar o PULL REQUEST clicando no botão `Create Pull Request`.
-
-Para cada PR realize esse processo.
-
-### COMEÇANDO OS EXERCÍCIOS
-
-Hoje você vai incrementar a sua Pokedex utilizando State. Caso você queira reutilizar a sua Pokedex de exercícios anteriores, basta substituir a pasta src desse repositório pela src da sua pokedex já pronta, após seguir os passos de `Antes de iniciar`.
-
-Se você não tiver feito, sem problemas, aqui você ja vai encontrar o comportamento esperado da sua Pokedex após os últimos exercícios.
-
-#### Exercício 1
-
-- Altere a sua página para que, ao invés de exibir toda a lista de pokémons, ela exiba um pokémon por vez. Ao apertar um botão de Próximo pokémon, a página passa a exibir o próximo pokémon da lista, e depois o próximo, e assim sucessivamente. Ao se chegar ao último pokémon da lista, a pokedex deve voltar para o primeiro pokémon no apertar do botão. Dica: Lembre-se [disso](https://pt-br.reactjs.org/docs/state-and-lifecycle.html#state-updates-may-be-asynchronous)!
-
-#### Exercício 2
-
-- Sua pokedex deve ter dois botões contendo os tipos Fire e Psychic. A partir dessa seleção, a pokedex deve circular somente pelos pokémons daquele tipo. Quando a página carrega, um desses filtros deve estar selecionado.
-
-#### Bônus
-
-Agora que você pegou todos os pokémons, consegue pegar todos os bônus?! Não é fácil completar todos! Faça quantos conseguir.
-
-- Separe os estilos de CSS por componente, fazendo um arquivo .css para cada.
-
-- Sua pokedex deve ter um terceiro botão chamado All para resetar o filtro. Após clicá-lo, a pokedex deve voltar a circular por todos os pokémons. Quando a página carrega, o filtro selecionado deve ser o All.
-
-- Crie um componente Button e use-o para fazer os botões reutilizáveis da sua Pokedex. Dica: pesquise sobre o this.props.children do React!
-
-- Faça os botões de filtragem serem dinâmicos: sua pokedex deve gerar um botão de filtragem para cada tipo de pokémon disponível nos dados, independente de quais ou quantos sejam, sem repetição de tipos. Ou seja, se sua pokedex possui pokémons do tipo Fire, Psychic, Electric e Normal, deve aparecer como opção de filtro um botão para cada um desses tipos. Além disso, ela deve manter o botão All.
-
-- Faça o botão de Próximo pokémon ser desabilitado se a lista filtrada de pokémons tiver um só pokémon.
-
-Abaixo, um exemplo com todos os bônus feitos:
-
-![Pokedex finalizada](images/pokedex.gif)
-
-Meu Projeto Finalizado: [PokéDex](https://github.com/Thiago-FR/exercise-pokedex-state)
-
+Por último, vá até o formulário que você criou na aula **HTML & CSS** - Forms e veja as diferenças no código.
