@@ -8,31 +8,31 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Desenvolvimento Front-end :white_check_mark:
 
-##### Bloco 11: Introdução - React
+##### Bloco 11A: Introdução - React
 
 - [x] 11-1A: _'Hello, world!' no React!_
 - [x] 11-2A: _Componentes React_ - [PokéDex](https://github.com/Thiago-FR/exercise-pokedex-state)
 - [x] 11-3A: _[Projeto - Movie Cards Library](https://github.com/tryber/sd-015-a-project-movie-cards-library/tree/thiago-ferreira-rose-movie-cards-librar)_
 
-##### Bloco 12: React
+##### Bloco 11B: React
 
 - [x] 11-1B: _Components com estado_
 - [x] 11-2B: _Eventos e formulários no React_
-- [ ] 11-3B: _[Projeto - Movie Cards Library Stateful]()_
+- [X] 11-3B: _[Projeto - Tryunfo](https://github.com/tryber/sd-015-a-project-tryunfo/tree/thiago-ferreira-rose-project-tryunfo)_
 
-##### Bloco 13: React
+##### Bloco 12: React
 
-- [ ] 12-1: _Melhorando o reuso de componentes: props.children e PropTypes_
-- [ ] 12-2: _Ciclo de vida de componentes em React_
-- [ ] 2-3: _React Router_
-- [ ] 12-4: _[Projeto - Movie Cards Library CRUD]()_
 
-##### Bloco 14: Metodologias Ágeis
+- [x] 12-1: _Ciclo de vida de componentes em React_
+- [ ] 12-2: _React Router_
+- [ ] 12-3: _[Projeto - TrybeTunes]()_
+
+##### Bloco 13: Metodologias Ágeis
 
 - [ ] 13-1: _Metodologias Ágeis_
 - [ ] 13-2: _[Projeto - Frontend Online Store]()_
 
-##### Bloco 15: Testes em React
+##### Bloco 14: Testes em React
 
 - [ ] 14-1: _Testando React com a React Testing Library_
 - [ ] 14-2: _Testando React com a React Testing Library - Parte 2_
