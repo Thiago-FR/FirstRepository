@@ -12,6 +12,6 @@ Exercício de fixação através do repositório -> [Aqui](https://github.com/Th
 * 10
   * Encapsulando Route com Switch
 
-11 ao 13
+* 11 ao 13
   * Encapsulando Route com Switch
   * Utilizando Link e Redireck
