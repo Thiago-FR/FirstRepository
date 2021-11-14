@@ -5,7 +5,7 @@
 Vamos criar um formulário utilizando o **Redux** ! \o/
 Você irá criar um formulário de cadastro manipulando os estados com o **Redux** . Para isto, acesse esse [repositório](https://github.com/tryber/exercise-forms-redux/tree/master) e siga as instruções na branch master para realizar o exercício.
 
-Exercicío [Concluído](https://github.com/Thiago-FR/exercise-forms-redux)
+Exercício [Concluído](https://github.com/Thiago-FR/exercise-forms-redux)
 
 ### Mais Exercício 
 
