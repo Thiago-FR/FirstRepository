@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [X] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [X] 3-4: _HTML Semântico_
-- [X] 3-5: _[Projeto - HTML & CSS](https://github.com/tryber/sd-015-a-project-lessons-learned/tree/thiago-ferreira-rose-lessons-learned)_
+- [X] 3-5: _[Projeto - HTML & CSS]()_ **LINK OFF**
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -33,7 +33,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 4-2: _JavaScript - Array e loop For_
 - [X] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [X] 4-4: _JavaScript - Objetos e funções_
-- [X] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-015-a-project-playground-functions/tree/thiago-ferreira-rose-playground-functions)_
+- [X] 4-5: _[Projeto - Playground Functions](https://github.com/Thiago-FR/playground-functions)_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
@@ -41,11 +41,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 5-2: _JavaScript - Trabalhando com elementos_
 - [X] 5-3: _JavaScript - Eventos_
 - [X] 5-4: _JavaScript - Web Storage_
-- [X] 5-5: _[Projeto - Meme Generator](https://github.com/tryber/sd-015-a-project-meme-generator/tree/thiago-ferreira-rose-meme-generator)_
-- [X] 5-6: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-015-a-project-pixels-art/tree/thiago-ferreira-rose-pixels-art)_
-- [X] 5-7: _[Projeto - Lista de tarefas](https://github.com/tryber/sd-015-a-project-todo-list/tree/thiago-ferreira-rose-list-project)_
-- [X] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/tryber/sd-015-a-project-color-guess/tree/thiago-ferreira-rose-color-guess)_
-- [X] 5-7: _[Projeto - Carta Misteriosa](https://github.com/tryber/sd-015-a-project-mistery-letter/tree/thiago-ferreira-rose-mistery-letter)_
+- [X] 5-5: _[Projeto - Meme Generator](https://github.com/Thiago-FR/MemeGenerator)_
+- [X] 5-6: _[Projeto - Arte com Pixels](https://github.com/Thiago-FR/PixelArt)_
+- [X] 5-7: _[Projeto - Lista de tarefas](https://github.com/Thiago-FR/toDoListHtml)_
+- [X] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/Thiago-FR/colorGuess)_
+- [X] 5-7: _[Projeto - Carta Misteriosa]()_ **LINK OFF**
 
 ##### Bloco 6: HTML & CSS avançado
 
@@ -54,14 +54,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6-3: _CSS Flexbox - Part 1_
 - [X] 6-4: _CSS Flexbox - Part 2_
 - [X] 6-5: _CSS Responsivo - Mobile First_
-- [X] 6-6: _[Projeto - Trybewarts](https://github.com/tryber/sd-015-a-project-trybewarts/tree/thiago-ferreira-rose-trybewarts)_
+- [X] 6-6: _[Projeto - Trybewarts]()_ **LINK OFF**
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
 - [X] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [X] 7-2: _JavaScript ES6 - Objects_
 - [X] 7-3: _Testes unitários em JavaScript_
-- [X] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/tryber/sd-015-a-project-js-unit-tests/tree/thiago-ferreira-rose-unit-tests)_
+- [X] 7-4: _[Projeto - JavaScript Testes Unitários]()_ **LINK OFF**
 
 ##### Bloco 8: JavaScript ES6
 
@@ -69,17 +69,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [X] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
 - [X] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [X] 8-5: _[Projeto - Zoo functions](https://github.com/tryber/sd-015-a-project-zoo-functions/tree/thiago-ferreira-rose-zoo-functions)_
+- [X] 8-5: _[Projeto - Zoo functions](https://github.com/Thiago-FR/Hofs)_
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
 - [x] 9-1: _JavaScript Assíncrono e Callbacks_
 - [x] 9-2: _JavaScript Promises_
-- [x] 9-3: _[Projeto - Carrinho de Compras](https://github.com/tryber/sd-015-a-project-shopping-cart/tree/thiago-ferreira-rose-shopping-cart)_
+- [x] 9-3: _[Projeto - Carrinho de Compras](https://github.com/Thiago-FR/shoppingCart)_
 
 ##### Bloco 10: Jest
 
 - [x] 10-1: _Primeiros passos no Jest_
 - [x] 10-2: _Jest - Testes Assí­ncronos_
 - [x] 10-3: _Jest - Simulando comportamentos_
-- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/tryber/sd-015-a-project-jest/tree/thiago-ferreira-rose-jest)_
+- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_**LINK OFF**
