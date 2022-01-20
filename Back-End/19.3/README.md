@@ -73,3 +73,5 @@ publicada para validar se deu tudo certo.
 4. Defina um serviço no arquivo para nosso app , para isso utilize a opção build para apontar para o **Dockerfile**;
 
 5. Publique a porta exposta no **Dockerfile** fazendo bind para a porta 8080 do localhost;
+
+COMANDO: `docker-compose -f exercicio5.yaml up --build -d`

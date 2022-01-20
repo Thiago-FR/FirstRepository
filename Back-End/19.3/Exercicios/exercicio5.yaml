@@ -1,0 +1,6 @@
+version: "3"
+services:
+  exercicio5:
+    build: ./exercicio5
+    ports:
+    - "8080:80"
