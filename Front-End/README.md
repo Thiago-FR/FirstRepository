@@ -12,13 +12,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 11-1A: _'Hello, world!' no React!_
 - [x] 11-2A: _Componentes React_ - [PokéDex](https://github.com/Thiago-FR/exercise-pokedex-state)
-- [x] 11-3A: _[Projeto - Movie Cards Library]()_ **LINK OFF**
+- [x] 11-3A: _Projeto - Movie Cards Library_ 
 
 ##### Bloco 11B: React
 
 - [x] 11-1B: _Components com estado_
 - [x] 11-2B: _Eventos e formulários no React_
-- [X] 11-3B: _[Projeto - Tryunfo]()_- **LINK OFF**
+- [X] 11-3B: _Projeto - Tryunfo_-
 
 ##### Bloco 12: React
 
@@ -49,7 +49,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 16: Projeto React
 
-- [x] 16-1: _[Projeto - Jogo de Trivia]()_ **LINK OFF**
+- [x] 16-1: _Projeto - Jogo de Trivia_
 
 ##### Bloco 17: React & Context API
 

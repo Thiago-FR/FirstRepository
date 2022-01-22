@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [X] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [X] 3-4: _HTML Semântico_
-- [X] 3-5: _[Projeto - HTML & CSS]()_ **LINK OFF**
+- [X] 3-5: _Projeto - HTML & CSS_
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -45,7 +45,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 5-6: _[Projeto - Arte com Pixels](https://github.com/Thiago-FR/PixelArt)_
 - [X] 5-7: _[Projeto - Lista de tarefas](https://github.com/Thiago-FR/toDoListHtml)_
 - [X] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/Thiago-FR/colorGuess)_
-- [X] 5-7: _[Projeto - Carta Misteriosa]()_ **LINK OFF**
+- [X] 5-7: _Projeto - Carta Misteriosa_
 
 ##### Bloco 6: HTML & CSS avançado
 
@@ -54,14 +54,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6-3: _CSS Flexbox - Part 1_
 - [X] 6-4: _CSS Flexbox - Part 2_
 - [X] 6-5: _CSS Responsivo - Mobile First_
-- [X] 6-6: _[Projeto - Trybewarts]()_ **LINK OFF**
+- [X] 6-6: _Projeto - Trybewarts_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
 - [X] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [X] 7-2: _JavaScript ES6 - Objects_
 - [X] 7-3: _Testes unitários em JavaScript_
-- [X] 7-4: _[Projeto - JavaScript Testes Unitários]()_ **LINK OFF**
+- [X] 7-4: _Projeto - JavaScript Testes Unitários_
 
 ##### Bloco 8: JavaScript ES6
 
