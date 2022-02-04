@@ -25,61 +25,54 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 21: Bancos de dados relacionais
 
-- [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs e UNIONs_
-- [ ] 21-3: _Stored Routines & Subqueries_
-- [ ] 21-4: _[Projeto - Vocabulary Booster]()_
+- [x] 21-1: _Funções mais usadas no SQL_
+- [x] 21-2: _Descomplicando JOINs e UNIONs_
+- [x] 21-3: _Transformando ideias em um modelo de banco de dados_
+- [x] 21-4: _[Projeto - One For All](https://github.com/Thiago-FR/mysql-one-for-all)_
 
-##### Bloco 22: Bancos de dados relacionais
+##### Bloco 22: Introdução - NodeJS
 
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-3: _[Projeto - One For All]()_
+- [ ] 22-1: _NodeJS - Introdução - Um motor JavScript_
+- [ ] 22-2: _NodeJS - Fluxo Assíncrono_
+- [ ] 22-3: _NodeJS - Mocha, Chai, Sinon - Testes de Back-end com NodeJs_
+- [ ] 22-4: _Express - HTTP com NodeJs_
+- [ ] 22-5: _Express - Middlewares_
+- [ ] 22-6: _[Projeto - Talker Manager]()_
 
-##### Bloco 23: Introdução - NoSQL
+##### Bloco 23: NodeJS - Rest e Restful
+
+- [ ] 23-1: _Arquitetura de Software - Chamada Model_
+- [ ] 23-2: _Arquitetura de Software - Chamada de Controller e Service_
+- [ ] 23-3: _Arquitetura de Software - Rest e Restful_
+- [ ] 23-4: _Arquitetura de Software - Testando as Chamadas_
+- [ ] 23-5: _[Projeto - Store Manager]()_
+
+##### Bloco 24: NodeJS - ORM e Atutenticação
+
+- [ ] 24-1: _ORM - Interface da Aplicação com o Banco de Dados_
+- [ ] 24-2: _ORM - Associations_
+- [ ] 24-3: _JWT - (JSON Web Tokens)_
+- [ ] 24-4: _Testando APIs com Testes de Integração_
+- [ ] 24-5: _[API de Blogs]()_
+
+##### Bloco ??: Introdução - NoSQL
 
 - [ ] 23-1: _MongoDB - Introdução_
 - [ ] 23-2: _Filter Operators_
 - [ ] 23-3: _[Projeto - Data Flights]()_
 
-##### Bloco 24: Updates
+##### Bloco ??: Updates
 
 - [ ] 24-1: _Updates Simples_
 - [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
 - [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
 - [ ] 24-4: _[Projeto - Commerce]()_
 
-##### Bloco 25: Aggregation Framework
+##### Bloco ??: Aggregation Framework
 
 - [ ] 25-1: _Aggregation Framework - Part 1_
 - [ ] 25-2: _Aggregation Framework - Part 2_
 - [ ] 25-3: _[Projeto - Aggregations]()_
-
-##### Bloco 26: Intro - NodeJS
-
-- [ ] 26-1: _NodeJS - Introdução_
-- [ ] 26-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 26-3: _NodeJS - Arquitetura_
-- [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
-
-##### Bloco 27: NodeJS
-
-- [ ] 27-1: _Express: HTTP com Node.js_
-- [ ] 27-2: _Arquitetura de Software - Introdução ao MVC_
-- [ ] 27-3: _[Projeto - Cookmaster]()_
-
-##### Bloco 28: NodeJS
-
-- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
-- [ ] 28-2: _Arquitetura web - Rest e Restful_
-- [ ] 28-3: _[Projeto - Store Manager]()_
-
-##### Bloco 29: NodeJS
-
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 29-3: _[Projeto - Cookmaster V2]()_
 
 ##### Bloco 30: Introdução - Deploy
 
