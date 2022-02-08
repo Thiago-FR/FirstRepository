@@ -1,0 +1,15 @@
+{
+  "name": "readFileSync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "readFileSync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "readFileSync": "node readFileSync.js",
+    "readFile": "node readFile.js",
+    "readFilePromises": "node readFilePromises.js"
+  },
+  "keywords": [],
+  "author": "Thiago",
+  "license": "ISC"
+}

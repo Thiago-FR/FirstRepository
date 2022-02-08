@@ -18,7 +18,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 11-1B: _Components com estado_
 - [x] 11-2B: _Eventos e formulários no React_
-- [X] 11-3B: _Projeto - Tryunfo_-
+- [X] 11-3B: _Projeto - Tryunfo_
 
 ##### Bloco 12: React
 
@@ -36,7 +36,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 14-1: _Testando React com a React Testing Library_
 - [x] 14-2: _Testando React com a React Testing Library - Parte 2_
-- [x] 14-3: _[Projeto - Testes em React](https://github.com/Thiago-FR/React-Testing-Library)
+- [x] 14-3: _[Projeto - Testes em React](https://github.com/Thiago-FR/React-Testing-Library)_
 
 ##### Bloco 15: Introduçãoo ao Redux
 
