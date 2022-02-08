@@ -1,4 +1,4 @@
-# Exerciíos
+# Exercicíos
 
 Antes de começar, crie uma nova pasta e, dentro dela, crie um pacote Node.js com o **npm init** chamado my-scripts . Realize os exercícios dentro desse pacote.
 
