@@ -86,8 +86,7 @@ function handleHelloWordRequest(req, res) {
 function handleHelloWordRequestTwo(req, res) {
   const { name, maxPrice, minPrice } = req.query;
   const drink = drinks.filter(r => r.name.includes(name) &&
-  r.price < Number(maxPrice) && r.price > Number(minPrice));
-  console.log(drink);
+  r.price < Number(maxPrice) );
   if (!drink) res.status(404).json({ message: 'Recipe not found!'});
 
   res.status(200).json(drink);
