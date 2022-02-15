@@ -32,11 +32,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 22: Introdução - NodeJS
 
-- [ ] 22-1: _NodeJS - Introdução - Um motor JavScript_
-- [ ] 22-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 22-3: _NodeJS - Mocha, Chai, Sinon - Testes de Back-end com NodeJs_
-- [ ] 22-4: _Express - HTTP com NodeJs_
-- [ ] 22-5: _Express - Middlewares_
+- [x] 22-1: _NodeJS - Introdução - Um motor JavScript_
+- [x] 22-2: _NodeJS - Fluxo Assíncrono_
+- [x] 22-3: _NodeJS - Mocha, Chai, Sinon - Testes de Back-end com NodeJs_
+- [x] 22-4: _Express - HTTP com NodeJs_
+- [x] 22-5: _Express - Middlewares_
 - [ ] 22-6: _[Projeto - Talker Manager]()_
 
 ##### Bloco 23: NodeJS - Rest e Restful
