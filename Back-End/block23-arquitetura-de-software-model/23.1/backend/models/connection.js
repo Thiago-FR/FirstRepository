@@ -3,7 +3,7 @@ const mysql = require('mysql2/promise');
 const connection = mysql.createPool({
   host: 'localhost',
   user: 'root',
-  password: 'Mysql2021**',
+  password: '', // ADD SENHA MYSQL
   database: 'model_example'
 });
 
