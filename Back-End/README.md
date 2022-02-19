@@ -37,12 +37,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 22-3: _NodeJS - Mocha, Chai, Sinon - Testes de Back-end com NodeJs_
 - [x] 22-4: _Express - HTTP com NodeJs_
 - [x] 22-5: _Express - Middlewares_
-- [ ] 22-6: _[Projeto - Talker Manager]()_
+- [x] 22-6: _[Projeto - Talker Manager](https://github.com/Thiago-FR/nodejs-talker-manager)_
 
 ##### Bloco 23: NodeJS - Rest e Restful
 
-- [ ] 23-1: _Arquitetura de Software - Chamada Model_
-- [ ] 23-2: _Arquitetura de Software - Chamada de Controller e Service_
+- [x] 23-1: _Arquitetura de Software - Chamada Model_
+- [x] 23-2: _Arquitetura de Software - Chamada de Controller e Service_
 - [ ] 23-3: _Arquitetura de Software - Rest e Restful_
 - [ ] 23-4: _Arquitetura de Software - Testando as Chamadas_
 - [ ] 23-5: _[Projeto - Store Manager]()_
