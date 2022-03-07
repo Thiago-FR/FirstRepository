@@ -1,3 +1,6 @@
+
+- [Para testar](#testar-o-projeto)
+
 # Exercicío
 
 Antes de começar, crie um novo projeto chamado **hello-jwt** utilizando o comando **npm init @tryber/backend hello-jwt** , aceitando as opções padrão.
@@ -148,3 +151,21 @@ O endpoint só pode ser acessado por pessoas autenticadas.
 9. Não permita mais o login do usuário *admin* com a senha fixa.
 
 10. Informe, na propriedade *admin* do payload do token, o mesmo valor da propriedade *admin* que está armazenado para aquela pessoa.
+
+# Para testar <a name="testar-o-projeto"></a>
+
+1. Clone o repositório
+
+- `git clone https://github.com/Thiago-FR/trybe-exercicios.git`.
+- Entre na pasta do repositório que você acabou de clonar.
+
+2. Acesse a branch do exercício
+- `git checkout exercicios/24.3`
+
+3. Instale as dependências.
+
+- `npm install`
+
+4. Inicie o servidor.
+
+- `npm start`
