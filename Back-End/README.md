@@ -43,17 +43,30 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 23-1: _Arquitetura de Software - Chamada Model_
 - [x] 23-2: _Arquitetura de Software - Chamada de Controller e Service_
-- [ ] 23-3: _Arquitetura de Software - Rest e Restful_
-- [ ] 23-4: _Arquitetura de Software - Testando as Chamadas_
-- [ ] 23-5: _[Projeto - Store Manager]()_
+- [x] 23-3: _Arquitetura de Software - Rest e Restful_
+- [x] 23-4: _Arquitetura de Software - Testando as Chamadas_
+- [x] 23-5: _[Projeto - Store Manager](https://github.com/Thiago-FR/project-store-manager-nodejs-msc-rest-restfull)_
 
 ##### Bloco 24: NodeJS - ORM e Atutenticação
 
-- [ ] 24-1: _ORM - Interface da Aplicação com o Banco de Dados_
-- [ ] 24-2: _ORM - Associations_
-- [ ] 24-3: _JWT - (JSON Web Tokens)_
-- [ ] 24-4: _Testando APIs com Testes de Integração_
-- [ ] 24-5: _[API de Blogs]()_
+- [x] 24-1: _ORM - Interface da Aplicação com o Banco de Dados_
+- [x] 24-2: _ORM - Associations_
+- [x] 24-3: _JWT - (JSON Web Tokens)_
+- [x] 24-4: _Testando APIs com Testes de Integração_
+- [x] 24-5: _[API de Blogs](https://github.com/Thiago-FR/blogs-api-nodejs)_
+
+##### Bloco 25: Deployment
+
+- [x] 25-1: _Infraestrutura - Deploy com Heroku_
+- [x] 25-2: _Deploy Docker & Heroku_
+- [ ] 25-3: _[Projeto - Stranger Things]()_
+
+##### Bloco 26: TypeScript
+
+- [ ] 26-1: _Introdução - TypeScript_
+- [ ] 26-2: _Tipagem Estáticae Generics_
+- [ ] 26-2: _Express com TypeScript_
+- [ ] 26-4: _[Projeto - Trybe Smith]()_
 
 ##### Bloco ??: Introdução - NoSQL
 
@@ -74,11 +87,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 25-2: _Aggregation Framework - Part 2_
 - [ ] 25-3: _[Projeto - Aggregations]()_
 
-##### Bloco 30: Introdução - Deploy
-
-- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 30-2: _Deploy - Gerenciadores de Processos_
-- [ ] 30-3: _[Projeto - Stranger Things]()_
 
 ##### Bloco 31: Projeto
 
