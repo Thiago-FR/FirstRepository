@@ -11,7 +11,7 @@
 
 **Exercício 4:** Agora vamos adicionar às nossas classes do exercício anterior os comportamentos. A classe que representa o pedido deverá ter dois métodos: um que calcula o total do pedido e outro que calcula o total aplicando o valor de desconto.
 
-**Exercício 5:**Escreva uma classe Data cuja instância represente uma data. Esta classe deverá conter três atributos: o dia, o mês e o ano.
+**Exercício 5:** Escreva uma classe Data cuja instância represente uma data. Esta classe deverá conter três atributos: o dia, o mês e o ano.
 
 **Exercício 6:** Vamos adicionar à nossa classe de Data do exercicio anterior os comportamentos. Essa classe deverá conter os seguintes métodos:
 * constructor: deverá verificar se a data passada por parâmetro é uma data válida, caso não esteja deverá criar uma data com valor "01/01/1900";
