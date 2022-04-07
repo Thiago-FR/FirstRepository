@@ -59,20 +59,42 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 25-1: _Infraestrutura - Deploy com Heroku_
 - [x] 25-2: _Deploy Docker & Heroku_
-- [ ] 25-3: _[Projeto - Stranger Things]()_
+- [x] 25-3: _Projeto - Stranger Things_
 
 ##### Bloco 26: TypeScript
 
-- [ ] 26-1: _Introdução - TypeScript_
-- [ ] 26-2: _Tipagem Estáticae Generics_
-- [ ] 26-2: _Express com TypeScript_
-- [ ] 26-4: _[Projeto - Trybe Smith]()_
+- [x] 26-1: _Introdução - TypeScript_
+- [x] 26-2: _Tipagem Estáticae Generics_
+- [x] 26-2: _Express com TypeScript_
+- [x] 26-4: _[Projeto - Trybe Smith](https://github.com/Thiago-FR/typescript-project-trybesmith)_
 
-##### Bloco ??: Introdução - NoSQL
+##### Bloco 27: Programação Orientada a objetos (POO) e SOLID
 
-- [ ] 23-1: _MongoDB - Introdução_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _[Projeto - Data Flights]()_
+- [X] 27-1: _Introdução - Orientada a objetos_
+- [X] 27-2: _Herança e Interfaces_
+- [X] 27-3: _Polimorfismo_
+- [ ] 27-4: _SOLID - Introdução e Princípios S, O, e D_
+- [ ] 27-5: _SOLID - Princípios L e I_
+- [ ] 27-6: _[Projeto - Trybe & Dragons]()_
+
+##### Bloco 28: Projeto - TFC - Trybe Futebol Club
+
+- [ ] 28-1: _[Projeto - TFC - Trybe Futebol Club]()_
+
+##### Bloco 29: Introdução - NoSQL
+
+- [ ] 29-1: _MongoDB - Introdução_
+- [ ] 29-2: _Filter Operators_
+- [ ] 29-3: _Operadores de Consulta_
+- [ ] 29-4: _Updates Simples_
+- [ ] 29-5: _Updates Complexos - Arrays_
+- [ ] 29-6: _[Projeto - Commerce]()_
+
+##### Bloco 30: MongoDB com NodeJS e POO
+
+- [ ] 30-1: _MongoDB e Arquitetura MSC_
+- [ ] 30-2: _MongoDB e POO_
+- [ ] 30-3: _[Projeto - Car Shop]()_
 
 ##### Bloco ??: Updates
 
