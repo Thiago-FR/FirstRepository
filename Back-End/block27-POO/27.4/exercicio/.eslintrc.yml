@@ -1,0 +1,19 @@
+env:
+  node: true
+  es2021: true
+  mocha: true
+extends:
+  - trybe-backend
+  - plugin:import/recommended
+parser: '@typescript-eslint/parser'
+parserOptions:
+  ecmaVersion: 12
+  sourceType: module
+plugins:
+  - '@typescript-eslint'
+  - import
+rules:
+  class-methods-use-this: 0
+  "@typescript-eslint/no-unused-vars": "error"
+  import/no-unresolved: [2, {commonjs: false, amd: false}]
+  import/extensions: [<severity>, "never" | "always" | "ignorePackages"]
