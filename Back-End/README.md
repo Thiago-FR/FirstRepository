@@ -73,13 +73,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 27-1: _Introdução - Orientada a objetos_
 - [X] 27-2: _Herança e Interfaces_
 - [X] 27-3: _Polimorfismo_
-- [ ] 27-4: _SOLID - Introdução e Princípios S, O, e D_
-- [ ] 27-5: _SOLID - Princípios L e I_
-- [ ] 27-6: _[Projeto - Trybe & Dragons]()_
+- [x] 27-4: _SOLID - Introdução e Princípios S, O, e D_
+- [x] 27-5: _SOLID - Princípios L e I_
+- [x] 27-6: _[Projeto - Trybe & Dragons](https://github.com/Thiago-FR/trybers-and-dragons-POO)_
 
 ##### Bloco 28: Projeto - TFC - Trybe Futebol Club
 
-- [ ] 28-1: _[Projeto - TFC - Trybe Futebol Club]()_
+- [x] 28-1: _[Projeto - TFC - Trybe Futebol Club](https://github.com/Thiago-FR/project-trybe-futebol-clube)_
 
 ##### Bloco 29: Introdução - NoSQL
 
