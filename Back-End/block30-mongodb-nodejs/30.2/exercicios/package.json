@@ -4,8 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "ts-node-dev src/index.ts",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "start": "ts-node-dev ./index.ts",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "debug": "npx tsc && node ./dist/index.js"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",

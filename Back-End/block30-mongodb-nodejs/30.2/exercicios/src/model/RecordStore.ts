@@ -1,6 +1,6 @@
-import { model as createModel, Schema, Document } from 'mongoose';
+import { model as createModel, Schema, Document } from "mongoose";
 import RecordStore from '../interface/RecordStore';
-import MongoModel from './MongoModel';
+import MongoModel from "./MongoModel";
 
 interface RecordStoreDocument extends RecordStore, Document { };
 
@@ -13,7 +13,7 @@ const recordStoreSchema = new Schema<RecordStoreDocument>({
 });
 
 export default class RecordStoreModel extends MongoModel<RecordStore> {
-  constructor(mode = createModel('RecordStore', recordStoreSchema)) {
-    super(mode);
+  constructor(mode = createModel('recordstores', recordStoreSchema)) {
+    super(mode);    
   }
 };
