@@ -10,7 +10,9 @@ const recordStoreSchema = new Schema<RecordStoreDocument>({
   format: String,
   yearPublished: Number,
   new: Boolean,
-});
+}, {
+  versionKey: false}
+);
 
 export default class RecordStoreModel extends MongoModel<RecordStore> {
   constructor(mode = createModel('recordstores', recordStoreSchema)) {

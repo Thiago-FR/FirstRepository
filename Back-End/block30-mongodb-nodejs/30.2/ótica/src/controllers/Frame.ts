@@ -9,7 +9,7 @@ class FrameController extends Controller<Frame> {
   constructor(
     service = new FrameService(),
     route = '/frames',
-  ) {
+  ) {    
     super(service);
     this._route = route;
   }
