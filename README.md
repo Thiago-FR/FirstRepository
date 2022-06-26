@@ -9,6 +9,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Desenvolvimento Front-end :heavy_check_mark:
 
-## Desenvolvimento Back-end :white_check_mark:
+## Desenvolvimento Back-end :heavy_check_mark:
 
 ## Ciência da Computação :hourglass_flowing_sand:
