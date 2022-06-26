@@ -1,44 +1,45 @@
 import { Request, Response } from 'express';
 import Controller, { RequestWithBody, ResponseError } from '.';
-import FrameService from '../services/Frame';
-import Frame from '../interfaces/Frame';
+import RecordStoreService from '../service/RecordStore';
+import RecordStore from '../interface/RecordStore';
 
-class FrameController extends Controller<Frame> {
+export default class RecordStoreController extends Controller<RecordStore> {
   private _route: string;
 
   constructor(
-    service = new FrameService(),
-    route = '/frames',
-  ) {    
+    service = new RecordStoreService(),
+    route = '/record-store',
+  ) {
     super(service);
     this._route = route;
   }
 
   get route() { return this._route; }
 
-  create = async (
-    req: RequestWithBody<Frame>,
-    res: Response<Frame | ResponseError>,
-  ): Promise<typeof res> => {
+  async create(
+    req: RequestWithBody<RecordStore>,
+    res: Response<RecordStore | ResponseError>,
+  ): Promise<typeof res> {
     const { body } = req;
+
     try {
-      const frame = await this.service.create(body);
-      if (!frame) {
+      const recordStore = await this.service.create(body);
+      if (!recordStore) {
         return res.status(500).json({ error: this.errors.internal });
       }
-      if ('error' in frame) {
-        return res.status(400).json(frame);
+      if ('error' in recordStore) {
+        return res.status(400).json(recordStore);
       }
-      return res.status(201).json(frame);
+      return res.status(201).json(recordStore);
     } catch (err) {
       return res.status(500).json({ error: this.errors.internal });
     }
-  };
+  }
 
-  readOne = async (
+  async readOne(
     req: Request<{ id: string }>,
-    res: Response<Frame | ResponseError>,
-  ): Promise<typeof res> => {
+    res: Response<RecordStore | ResponseError>,
+  ): Promise<typeof res> {
     const { id } = req.params;
     try {
       const frame = await this.service.readOne(id);
@@ -48,7 +49,5 @@ class FrameController extends Controller<Frame> {
     } catch (error) {
       return res.status(500).json({ error: this.errors.internal });
     }
-  };
+  }
 }
-
-export default FrameController;
